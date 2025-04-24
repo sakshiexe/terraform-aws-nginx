@@ -1,0 +1,27 @@
+# Terraform state and backup files
+*.tfstate
+*.tfstate.*
+
+# Terraform working directory
+.terraform/
+
+# Terraform lock file (optional — if using multiple teams, you may want to commit this)
+.terraform.lock.hcl
+
+# Plan files
+*.tfplan
+
+# Crash logs
+crash.log
+
+# SSH keys (private and public)
+ssh-key
+ssh-key.pub
+
+# Sensitive files or generated creds
+*.pem
+*.key
+
+# OS-specific files
+.DS_Store
+Thumbs.db
