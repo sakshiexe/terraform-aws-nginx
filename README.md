@@ -8,7 +8,7 @@ This Terraform project provisions an EC2 instance on AWS with a startup script t
 
 ```bash
 terraform-aws-nginx/
-├── terraform.tf              # Root Terraform config
+├── terraform.tf         # Root Terraform config
 ├── providers.tf         # AWS provider setup
 ├── variables.tf         # Input variables
 ├── output.tf            # Output values
@@ -18,8 +18,8 @@ terraform-aws-nginx/
 ├── install_nginx.sh     # User data script to install NGINX
 ├── .gitignore           # Ignore rules for Git
 ├── README.md            # Project documentation
-├── ssh-key*             # SSH keys (excluded from Git)
-└── terraform.tfstate*   # State files (excluded)
+├── ssh-key*             # SSH keys 
+└── terraform.tfstate*   # State files 
 ```
 
 
